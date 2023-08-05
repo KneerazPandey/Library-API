@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "nodemon"
   },
+  "prisma": {
+    "seed": "node --require esbuild-register prisma/seed.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
